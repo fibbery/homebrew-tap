@@ -4,8 +4,8 @@
 class Csv2keychain < Formula
   desc "command-line for load password csv file from chrome to macos keychain"
   homepage ""
-  url "https://github.com/fibbery/csv2keychain/releases/download/1.0.1/csv2keychain_1.0.1_Darwin_i386.tar.gz"
-  sha256 "2a9f1c8e4a7bade4851c918d486600c029c3136071c1537668f2ebb4a5342275"
+  url "https://github.com/fibbery/csv2keychain/releases/download/1.0.4/csv2keychain_1.0.4_Darwin_i386.tar.gz"
+  sha256 "43a7513509e68bf03dab465c1409b37be79af7e5f745e2e9df9780485759b65f"
   # depends_on "cmake" => :build
 
   def install
