@@ -7,12 +7,11 @@ class Csv2keychain < Formula
 
   if OS.mac?
     url "https://github.com/fibbery/csv2keychain/releases/download/1.0.1/csv2keychain_1.0.1_darwin_amd64.tar.gz"
-    sha256 "467a7ffcf6da75ded7a562c5f31abab4c2bd34799906f8c49fda6030142592bc"
+    sha256 "5b2d57229229269d78457b7bbaba08f7691a9dc43e176ba871e5fffea88cdf33"
   elsif OS.linux?
   end
 
   def install
     bin.install "csv2keychain"
-    ...
   end
 end
